@@ -1,0 +1,81 @@
+/* form_styles.css */
+
+/* Center the form horizontally */
+
+body {
+    background-color: #eef2f4;
+
+    margin: 0;
+    /* Remove default body margin */
+    padding: 0;
+    /* Remove default body padding */
+}
+
+
+#user-form {
+    max-width: 400px;
+    /* Limit the maximum width of the form */
+    margin: 0 auto;
+    /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="submit"] {
+    width: calc(100% - 10px);
+    /* Adjust input width to fit inside the form */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Center error messages */
+.error-message {
+    color: red;
+    display: none;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Style the button */
+#view-users {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#view-users:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+mysql-connector-python
+Flask
+pillow
+flask-cors
+gevent 
+gevent-websocket
+Werkzeug
+
+python -m io

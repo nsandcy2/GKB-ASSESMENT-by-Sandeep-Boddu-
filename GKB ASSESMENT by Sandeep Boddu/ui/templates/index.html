@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css"> <!-- Link to your CSS file -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/validation.js" defer></script>
+    <script src="../js/app.js" defer></script>
+    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../css/form_styles.css">
+
+    <style>
+        .error-message {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>User Input Form</h1>
+        <form id="user-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <div id="name-error" class="error-message"></div><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <div id="email-error" class="error-message"></div><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <div id="age-error" class="error-message"></div><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <div id="responseContainer"></div>
+        <!-- Button to navigate to user.html -->
+        <button id="view-users">View Users</button>
+    </div>
+</body>
+
+</html>
