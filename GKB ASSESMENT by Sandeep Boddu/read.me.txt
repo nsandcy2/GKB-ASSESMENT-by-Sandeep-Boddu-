@@ -1,0 +1,39 @@
+This is a Flask project with a simple frontend and backend setup.
+
+Project Structure
+My_flask_project/
+│
+├── backend/                     #  backend 
+│   ├── app.py                   # Flask application file
+│   ├── sql_connection.py       # SQL connection module
+│   ├── users_dao.py            # Data access object for users
+│   └── ...                      # Other backend files
+└── ui/                           #  frontend 
+    ├── js/
+    │   ├── my_js_file.js      # JavaScript file for frontend
+    │   └── ...                  # Other JavaScript files
+    └── templates/
+        ├── user.html            # HTML template for user details
+        └── ...                  # Other HTML templates
+
+
+
+
+Install Dependencies:
+
+bash
+Copy code
+pip install -r backend/requirements.txt
+Run the Flask Application:
+
+
+Description
+This Flask project consists of a backend developed using Flask, which provides APIs to interact with a MySQL database. The frontend is built using HTML, CSS, and JavaScript, with Jinja templates for dynamic content rendering.
+
+Features
+User Input Form: Allows users to submit their details (name, email, age, and date of birth).
+View Users: Displays a table of user details fetched from the database.
+Dependencies
+Flask: Web framework for building the backend.
+MySQL Connector: Library for connecting Flask to MySQL database.
+Contributing
